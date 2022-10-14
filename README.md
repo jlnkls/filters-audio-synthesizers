@@ -11,5 +11,5 @@ Since the basic component featured in every synthesizer type is the analog LPF, 
 By means of the trapezoidal rule, the developed digital synthesizer models optimally behave like their analog counterparts. 
 The proposed method gives thus a common reference for a basic approach towards digital development of filters in music synthesizers.
 
-
+## Interface
 [![HTML Interface](https://github.com/jlnkls/filters-audio-synthesizers/blob/main/img/html_interface.png)](https://htmlpreview.github.io/?https://github.com/jlnkls/filters-audio-synthesizers/blob/main/src/html_interface.html)
