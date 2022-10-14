@@ -1,0 +1,13 @@
+#   An insight into Filters in Music Synthesizers
+#
+%   Author: jlnkls
+%
+#   05.05.2017
+
+
+
+1) Script 'lpf_digital' generates the plot of the frequency response of the 1-pole LPF for different cutoff frequencies.
+
+2) Script 'plotting_imp_resp' plots the impulse response of the synth filters, by calling 'synth_filtering' (a function that filters a given input with one of the 3 developed synth filters; in this case, an impulse is introduced). The function 'export_fig_pdf' is used as to export each of the generated charts to PDF.
+
+3) Script 'generating_audio' first generates an input triangle wave with a simple melody ("composed" by the author of the project, jlnkls). For such purpose, function 'input_sequence' is called, which generates the given wave calling 'triangle_wave' (a function developed by the author for the ASP course in January 2017). Once the input sequence is generated, it is filtered with 'synth_var_filtering', a variation on 'synth_filtering'. The audio will be filtered simultaneously with fixed and variable resonance, being the cutoff modulated by 4 different types of functions (ADSR, linear, logarithmic and exponential).
