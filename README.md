@@ -1,7 +1,7 @@
 # filters-audio-synthesizers
 Music synth filters - Virtual Analog Modeling of the major music synthesizers’ architecture.
 
-![Header](code.png)
+![Header](https://github.com/jlnkls/filters-audio-synthesizers/blob/main/img/code.png)
 
 ## Abstract
 An analysis and digital modeling of the major music synthesizers’ architectures is carried out. 
